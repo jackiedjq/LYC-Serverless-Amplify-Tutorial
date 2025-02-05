@@ -142,7 +142,7 @@
             // 取消现有按钮功能，改为新的功能
             document.getElementById("confirmButton").addEventListener("click", function() {
                 // 发送 GET 请求到新的 API Gateway
-                fetch("https://xh5pg0dl93.execute-api.us-east-1.amazonaws.com/prd/add", {
+                fetch("https://jvyda4tsmj.execute-api.us-east-1.amazonaws.com/prd/", {
                     method: "GET"
                 })
                 .then(response => response.json())
